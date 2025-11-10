@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Momo+Trust+Display&display=swap');
 
+* {
+ margin: 0;
+ padding: 0;
+}
+
 /* IDs */
 
+#nav-list {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+list-style-type: none;
 
+}
 /* Classes */
 
 
@@ -10,6 +21,20 @@
 /* Generics */
 
 h3 {
- font-family: Lobster , sans-serif;
+font-family: Lobster , sans-serif;
+display: flex;
+justify-content: center;
+color: purple;
 }
 
+a {
+text-decoration: none;
+}
+
+img {
+width: 150px;
+margin: 2em;
+border-radius: 75px;
+object-fit: cover;
+position: relative;
+}
