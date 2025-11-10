@@ -7,16 +7,24 @@
 
 /* IDs */
 
+#heading {
+margin-top: 0.5em;
+font-size: 1.5em;
+}
+
 #nav-list {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 list-style-type: none;
-
+margin: 1em;
 }
 /* Classes */
 
-
+.image {
+display: flex;
+justify-content: center;
+}
 
 /* Generics */
 
@@ -24,17 +32,18 @@ h3 {
 font-family: Lobster , sans-serif;
 display: flex;
 justify-content: center;
-color: purple;
+color: #9903FF;
 }
 
 a {
 text-decoration: none;
+color: #A118FF;
 }
 
 img {
 width: 150px;
-margin: 2em;
-border-radius: 75px;
+margin: 1em 0;
+border-radius: 80px;
 object-fit: cover;
-position: relative;
+border: 5px solid #FFF412;
 }
