@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Momo+Trust+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+MX+Guides&display=swap');
+
 * {
  margin: 0;
  padding: 0;
@@ -10,6 +12,7 @@
 #heading {
 margin-top: 0.5em;
 font-size: 1.5em;
+letter-spacing: 0.3em;
 }
 
 #nav-list {
@@ -18,6 +21,18 @@ flex-direction: row;
 justify-content: space-evenly;
 list-style-type: none;
 margin: 1em;
+}
+
+#theme-button {
+border: 2px solid #8B95DB;
+padding: 5px 0;
+width: 5em;
+border-radius: 2em;
+position: relative;
+top: 10px;
+left: 10px;
+color: #A118FF;
+font-family: fantasy;
 }
 
 /* Classes */
@@ -45,6 +60,21 @@ margin-left: 10px;
 border: 2px solid #8B95DB;
 }
 
+.theme {
+background: #42445A;
+color: white;
+}
+
+.abdsalam-khalid {
+color: purple;
+font-size: 1.5em;
+}
+
+.k {
+ color: #14CD47;
+ font-family: Lora , sans-serif;
+}
+
 /* Generics */
 
 h3 {
@@ -65,9 +95,4 @@ margin: 1em 0;
 border-radius: 80px;
 object-fit: cover;
 border: 5px solid #FFF412;
-}
-
-span {
- color: purple;
- font-size: 1.5em;
 }
