@@ -10,7 +10,31 @@
 
 <body>
  
+<header class="header">
+<button id="theme-button">Theme</button>
  
+ <div class="image"><img src="/profile.png" alt="profile" ></div>
+</header> 
+ 
+ <main id="main">
+  
+<form action="https://formspree.io/f/mzzybyba"  method="post" >
+ <div class="input">
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" placeholder="Name" required>
+  <br>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" placeholder="Email" required>
+  <br>
+  <textarea name="message" id="message" rows="8" cols="30" placeholder="Message" required></textarea>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+ </main>
+ 
+ <footer>
+    <button class="back-button"><a href="/Project/project.html">Back</a></button>
+ </footer>
  <script src="contact.js"></script>
 </body>
 
