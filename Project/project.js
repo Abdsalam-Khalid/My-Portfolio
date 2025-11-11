@@ -1,3 +1,6 @@
+document.body.style.background = 'white';
+document.body.style.color = 'black';
+
 let theme = document.querySelector('#theme-button');
 
 const changeTheme = () => {
