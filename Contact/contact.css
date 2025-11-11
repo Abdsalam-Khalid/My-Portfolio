@@ -21,11 +21,13 @@ color: #A118FF;
 font-family: fantasy;
 }
 
-#input {
-display: block;
-justify-content: center;
-align-items: center;
-margin: 50px;
+#name , #email {
+width: 70%;
+padding: 0.5em 0.5em;
+border-radius: 2em;
+border: 1px solid gold;
+margin: 1em 0 1em 3em;
+font-family: Playwrite MX Guides , sans-serif;
 }
 
 /* Classes */
@@ -41,12 +43,22 @@ font-family: fantasy;
 width: 4em;
 padding: 5px 0;
 position: absolute;
-left: 20px;
-bottom: 40px;
+right: 2em;
+bottom: 3em;
 border: 2px solid #8B95DB;
 border-radius: 2em;
 }
 
+.submit {
+font-size: 1em;
+font-family: fantasy;
+width: 5.5em;
+border: 2px solid #8B95DB;
+border-radius: 2em;
+color: #A118FF;
+padding: 5px 2px 5px 2px;
+margin: 1.5em 0 0 7.5em;
+}
 
 /* Generics */
 
@@ -61,4 +73,13 @@ border: 5px solid #850EFF;
 a {
 text-decoration: none;
 color: #A118FF;
+}
+
+textarea {
+border: 1px solid gold;
+border-radius: 1em;
+padding: 1em;
+margin-left: 2em;
+margin-top: 1em;
+font-family: Playwrite MX Guides,sans-serif;
 }
